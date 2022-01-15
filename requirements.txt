@@ -6,5 +6,4 @@ Image
 fer
 opencv-python
 opencv-python-headless
-tensorflow-estimator
-tensorflow
+scipy
