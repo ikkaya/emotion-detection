@@ -3,3 +3,5 @@ numpy
 pandas
 FER
 Image
+fer
+opencv-python
