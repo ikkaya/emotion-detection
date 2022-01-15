@@ -1,0 +1,6 @@
+streamlit
+numpy
+pandas
+FER
+Image
+Cv2
