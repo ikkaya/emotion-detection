@@ -3,4 +3,4 @@ numpy
 pandas
 FER
 Image
-Cv2
+cv2
