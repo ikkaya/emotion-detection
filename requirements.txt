@@ -4,8 +4,6 @@ tensorflow-cpu
 opencv-python-headless
 numpy
 keras
-keras-preprocessing
-json5
 FER
 Image
 fer
