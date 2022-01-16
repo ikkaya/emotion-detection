@@ -39,7 +39,7 @@ else:
     st.write("The main emotion was detected as",pd.DataFrame(getEmotions(img), index=[0]).idxmax(axis="columns").iloc[0],".")
     prediction = pd.DataFrame(getEmotions(img), index=[0]).idxmax(axis="columns").iloc[0]
     if prediction == 'angry':
-        st.subheader("You seem to be Angry :rage: today. Take it easy! ")
+        st.subheader("You seem to be Angry :angry: today. Take it easy! ")
     elif prediction == 'disgust':
         st.subheader("You seem to be Disgust :rage: today! ")
     elif prediction == 'fear':
@@ -49,9 +49,9 @@ else:
     elif prediction == 'sad':
         st.subheader("You seem to be Sad :cry: today. Smile and be happy! ")
     elif prediction == 'Surprise':
-        st.subheader("You seem to be Surprised today! ")
+        st.subheader("You seem to be Surprised :open_mouth: today! ")
     elif prediction == 'neutral':
-        st.subheader("You seem to be Neutral today. Wish you a happy day! ")
+        st.subheader("You seem to be Neutral :neutral_face: today. Wish you a happy day! ")
     else:
         st.write("OK!")
 
