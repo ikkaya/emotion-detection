@@ -48,7 +48,7 @@ else:
         st.subheader("Yeah!  You are Happy :smile: today. Make everyday a happy day! ")
     elif prediction == 'sad':
         st.subheader("You seem to be Sad :cry: today. Smile and be happy! ")
-    elif prediction == 'Surprise':
+    elif prediction == 'surprise':
         st.subheader("You seem to be Surprised :open_mouth: today! ")
     elif prediction == 'neutral':
         st.subheader("You seem to be Neutral :neutral_face: today. Wish you a happy day! ")
